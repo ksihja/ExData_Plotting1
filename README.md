@@ -2,7 +2,7 @@
 
 This directory contains followin files that are created according to the requirements of plotting assignment. NOTE:  household_power_consumption.txt needs to be downloaded separately into R's working directory in order to be able to execute R plotting scripts.
 
-# filter_powerconsumption_data.R
+### filter_powerconsumption_data.R
 
 This R-script is called by each R plotting script. It generates filtered data set for plots where only 2 days specified in assignment are selected.
 
