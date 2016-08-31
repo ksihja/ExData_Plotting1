@@ -1,5 +1,7 @@
 # Updated after assignment is done
 
+Original README.md containing assignment specification is attached in this file (see below).
+
 This directory contains followin files that are created according to the requirements of plotting assignment. NOTE:  household_power_consumption.txt needs to be downloaded separately into R's working directory in order to be able to execute R plotting scripts.
 
 ### filter_powerconsumption_data.R
@@ -8,7 +10,17 @@ This R-script is called by each R plotting script. It generates filtered data se
 
 It also creates extra datetime column where Date and Time colums from original data sets are combined together.
 
-# HH
+# plot1.R and plot1.png
+ plot1.R generates plot 1 and saves it as a png file (plot1.png)
+ 
+# plot2.R and plot2.png
+ plot2.R generates plot 2 and saves it as a png file (plot2.png)
+ 
+ # plot3.R and plot3.png
+ plot3.R generates plot 3 and saves it as a png file (plot3.png)
+ 
+ # plot4.R and plot4.png
+ plot4.R generates plot 4 and saves it as a png file (plot4.png)
 
 
 
