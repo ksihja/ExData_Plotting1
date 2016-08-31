@@ -1,11 +1,14 @@
-##Updated after assignment is done
+# Updated after assignment is done
 
-This directory contains followin files that are created according to the requirements of plotting assignment.
+This directory contains followin files that are created according to the requirements of plotting assignment. NOTE:  household_power_consumption.txt needs to be downloaded separately into R's working directory in order to be able to execute R plotting scripts.
 
-# household_power_consumption_data.txt
-Original dataset used for source for plotting.
+# filter_powerconsumption_data.R
 
-# ff
+This R-script is called by each R plotting script. It generates filtered data set for plots where only 2 days specified in assignment are selected.
+
+It also creates extra datetime column where Date and Time colums from original data sets are combined together.
+
+# HH
 
 
 
