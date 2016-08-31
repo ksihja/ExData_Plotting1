@@ -1,3 +1,14 @@
+##Updated after assignment is done
+
+This directory contains followin files that are created according to the requirements of plotting assignment.
+
+# household_power_consumption_data.txt
+Original dataset used for source for plotting.
+
+# ff
+
+
+
 ## Introduction
 
 This assignment uses data from
