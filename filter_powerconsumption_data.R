@@ -31,12 +31,9 @@ filter_consumption_data <- function(){
   
   powerConsumption$fullTime <- convertedDates$Date
   
-  # Convert colums 3:9 as numeric
+  # Convert columns 3:9 as numeric
 
-  for(i in 1:nrow(powerConsumption)){
-    
-    powerConsumption[,3][i,1] <- as.numeric(powerConsumption[,3][i,1])
-  }
+  powerConsumption[, 3:9] <- lapply(powerConsumption[, 3:9], as.numeric)
   
 #  write.table(powerConsumption, "filtered_power_consumption.txt")  
 
